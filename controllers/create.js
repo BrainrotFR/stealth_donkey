@@ -428,6 +428,34 @@ if __name__ == "__main__":
             }
         })
     }
+
+    // testing only wip 
+    // ipaddr = req.body.ip
+    // // Storing the JSON format data in myObject
+    // var data = fs.readFileSync("./configs/ip.json");
+    // var myObject = JSON.parse(data);
+    // console.log(myObject)
+    
+    // for (var i = 0; i <= myObject.length; i++) {
+    //     ipnum = i;
+    // }
+
+    // // Defining new data to be added
+    // let newData = {
+    //     ['ip'+ipnum]:ipaddr,
+    // };
+
+    // // Adding the new data to our object
+    // myObject.push(newData);
+    // console.log(myObject)
+    // // Writing to JSON file
+    // var newData2 = JSON.stringify(myObject);
+    // console.log(newData2)
+    // fs.writeFile("./configs/ip.json", newData2, (err) => {
+    //     // Error checking
+    //     if (err) throw err;
+    //     console.log("New data added");
+    // });
     
 })
 

@@ -63,6 +63,8 @@
             </select>
             <form id="file_retrieval_form">
             <h4>Select Agent Function:</h4>
+            <p>Ip address:</p>
+            <p><input type = "text" id="ip" value='ip'/></p>
             <label>getfile: endpoint3 </label>
             <input type="checkbox" id="getfile" value="getfile"><br>
             <label>command execution: endpoint4</label>
@@ -151,6 +153,7 @@
         function agent_form(){
             event.preventDefault()
             console.log("ddd")
+            const ip = document.getElementById("ip").value
             const agent_name = $('#agent_name').val();
             const type = $('#agent_type').val();
             const getfile  = $('#getfile:checked').val();
